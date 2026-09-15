@@ -1,0 +1,1 @@
+const m=document.querySelector('.menu'),n=document.querySelector('nav');if(m)m.onclick=()=>n.classList.toggle('open');document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>n.classList.remove('open'));const c=document.querySelector('.mobilecall');addEventListener('scroll',()=>c&&c.classList.toggle('show',scrollY>140));
